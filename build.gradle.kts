@@ -3,7 +3,7 @@ plugins {
 }
 
 val minecraftVersion: String = "1.21.1"
-val neoForgeVersion: String = "21.1.197"
+val neoForgeVersion: String = "21.1.234"
 val patchouliVersion: String = "1.21.1-92-NEOFORGE"
 val minTfcVersion: String = "4.0.17-beta"
 val maxTfcVersion: String = "4.2.5"
