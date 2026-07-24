@@ -40,7 +40,7 @@ public class ChooseBiomesMixin {
           point.biome = OCEAN;
         } else if (point.baseOceanDepth > 9) {
           point.biome = DEEP_OCEAN_TRENCH;
-        } else if (point.baseOceanDepth > 6) {
+        } else if (point.oceanDepth > 6) {
           point.biome = DEEP_OCEAN;
         } else {
           point.biome = accessor.tfcrealworld$invokeRandomSeededFrom(
