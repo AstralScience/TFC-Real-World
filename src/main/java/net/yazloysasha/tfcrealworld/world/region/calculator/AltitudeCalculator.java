@@ -29,7 +29,7 @@ public class AltitudeCalculator extends RegionPointCalculator {
           (double) point.z
         );
       } else {
-        point.baseOceanDepth = altitudeNoise.getBaseOceanDepth(
+        point.oceanDepth = altitudeNoise.getBaseOceanDepth(
           (double) point.x,
           (double) point.z
         );
