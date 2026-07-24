@@ -1,6 +1,6 @@
 package net.yazloysasha.tfcrealworld.mixin.world.region;
 
-import net.dries007.tfc.world.region.AddMountains;
+import net.dries007.tfc.world.region.AddMountainsAndBarrierIslands;
 import net.dries007.tfc.world.region.RegionGenerator;
 import net.yazloysasha.tfcrealworld.config.TFCRealWorldConfig;
 import org.spongepowered.asm.mixin.Mixin;
